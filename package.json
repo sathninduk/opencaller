@@ -1,0 +1,26 @@
+{
+  "name": "opencaller",
+  "version": "1.0.0",
+  "main": "node_modules/ts-node/register",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
+    "electron": "^34.2.0",
+    "electron-builder": "^25.1.8",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "@electron/remote": "^2.1.2",
+    "@types/node": "^22.13.4",
+    "electron-devtools-installer": "^4.0.0",
+    "ts-node": "^10.9.2"
+  }
+}
